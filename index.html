@@ -9,21 +9,35 @@
   </head>
   <body>
     <header>
-        <div class="navigation__left">
+        <div class="navigation__column">
             <span>No Service</span>
-            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-wifi fa-xs"></i>
         </div>
-        <div class="navigation__center">
+        <div class="navigation__column">
             <span>00:00</span>
         </div>
-        <div class="navigation__center">
-            <i class="fa-solid fa-lock fa-xs"></i>
+        <div class="navigation__column">
             <span>100%</span>
             <i class="fa-solid fa-battery-full fa-lg"></i>
             <i class="fa-solid fa-bolt fa-xs"></i>
         </div>
     </header>
-
+    <main>
+        <div class="login-title">
+            <h1>Welcome to KakaoTalk</h1>
+            <p>
+                If you have a Kakao Account, <br>
+                log in with your email or phone number.
+            </p>
+        </div>
+        <form class="login-form">
+            <input type="text" required placeholder="Email or phone number">
+            <input type="password" required placeholder="Password">
+            <input type="submit" value="Log In">
+            <input type="submit" value="Sign Up">
+            <a href="#">Find Kakao Account or Password</a>
+        </form>
+    </main>
     <script
       src="https://kit.fontawesome.com/019c2e3d78.js"
       crossorigin="anonymous"

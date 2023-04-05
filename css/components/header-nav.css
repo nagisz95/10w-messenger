@@ -1,5 +1,23 @@
 header{
+    padding: 10px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.navigation__column{
+    width: 33%;
+}
+.navigation__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.navigation__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navigation__column:last-child i{
+    margin-left: 3px;
 }

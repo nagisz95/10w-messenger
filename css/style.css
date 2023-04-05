@@ -1,3 +1,6 @@
+@import "variables.css";
+@import "reset.css";
+
 /* components */
 @import "components/header-nav.css";
 
