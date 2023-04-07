@@ -3,6 +3,9 @@
 
 /* components */
 @import "components/header-nav.css";
+@import "components/header-menu.css";
+@import "components/person-icon.css";
+@import "components/footer-menu.css";
 
 /* screen */
 @import "screen/login.css";

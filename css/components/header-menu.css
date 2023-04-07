@@ -1,0 +1,18 @@
+.header-menu{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.header-menu__title,
+.header-menu__icon a{
+    font-size: 28px;
+    color: black;
+}
+.header-menu__title{
+    font-weight: bold;
+}
+.header-menu__icon a:nth-child(2),
+.header-menu__icon a:last-child{
+    margin-left: 20px;
+}

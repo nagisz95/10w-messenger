@@ -1,0 +1,38 @@
+.person-icon{
+    margin: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.person-icon:nth-child(3){
+    border-bottom: none;
+}
+.person-icon__big{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.person-icon__big h3{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.person-icon__big img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
+.person-icon__small{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.person-icon__small h3{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.person-icon__small img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
