@@ -4,15 +4,16 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.header-menu__title,
-.header-menu__icon a{
+.header-menu__title{
     font-size: 28px;
+}
+.header-menu__icon a{
+    font-size: 20px;
     color: black;
 }
 .header-menu__title{
     font-weight: bold;
 }
-.header-menu__icon a:nth-child(2),
-.header-menu__icon a:last-child{
+.header-menu__icon a{
     margin-left: 20px;
 }

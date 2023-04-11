@@ -1,38 +1,85 @@
-.person-icon{
+.person-icon {
     margin: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
 }
-.person-icon:nth-child(3){
+.person-icon__not-border{
     border-bottom: none;
 }
-.person-icon__big{
+.person-icon:nth-child(3) {
+    border-bottom: none;
+}
+.person-icon__big {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 15px;
 }
-.person-icon__big h3{
+.person-icon__big h3 {
     margin-left: 10px;
     font-size: 20px;
     font-weight: bold;
 }
-.person-icon__big img{
+.person-icon__big img {
     width: 80px;
     height: 80px;
     border-radius: 30px;
 }
-.person-icon__small{
+.person-icon__small {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 25px;
 }
-.person-icon__small h3{
+.person-icon__small h3 {
     margin-left: 10px;
     font-size: 15px;
 }
-.person-icon__small img{
+.person-icon__small img {
     width: 50px;
     height: 50px;
     border-radius: 20px;
+}
+.person-icon__middle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.person-icon__middle img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.person-icon__middle__text h3 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+.person-icon__middle__text h4 {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.person-icon__middle__stamp{
+    position: absolute;
+    right: 0;
+}
+.person-icon__middle__stamp h3{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.person-icon__middle__stamp span{
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f02e2b;
+    color: #fff;
+    font-size: 15px;
+    
 }
