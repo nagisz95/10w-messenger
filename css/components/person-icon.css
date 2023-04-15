@@ -1,7 +1,11 @@
 .person-icon {
     margin: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
     position: relative;
+}
+.person-icon--grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .person-icon__not-border{
     border-bottom: none;
@@ -19,11 +23,13 @@
     margin-left: 10px;
     font-size: 20px;
     font-weight: bold;
+    color: #fff;
 }
 .person-icon__big img {
     width: 80px;
     height: 80px;
     border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .person-icon__small {
     display: flex;
@@ -31,14 +37,26 @@
     align-items: center;
     margin-bottom: 25px;
 }
-.person-icon__small h3 {
-    margin-left: 10px;
+.personIcon__chatName {
+    margin-left: 13px;
     font-size: 15px;
+    color: #fdf9f9;
 }
 .person-icon__small img {
     width: 50px;
     height: 50px;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.personIcon__small--find{
+    margin-bottom: 10px;
+}
+.personIcon__nameFind{
+    color: rgba(0, 0, 0, 0.3);
+}
+.personIcon__small--find img{
+    width: 30px;
+    height: 30px;
 }
 .person-icon__middle {
     display: flex;
@@ -81,5 +99,4 @@
     background-color: #f02e2b;
     color: #fff;
     font-size: 15px;
-    
 }

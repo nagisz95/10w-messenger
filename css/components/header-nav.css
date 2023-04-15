@@ -7,6 +7,7 @@ header{
     font-size: 12px;
 }
 .navigation__column{
+    color: rgb(244, 223, 181);
     width: 33%;
 }
 .navigation__column:nth-child(2){

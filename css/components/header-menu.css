@@ -2,14 +2,14 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 .header-menu__title{
     font-size: 28px;
+    color: #fff;
 }
 .header-menu__icon a{
     font-size: 20px;
-    color: black;
+    color: #fff;
 }
 .header-menu__title{
     font-weight: bold;

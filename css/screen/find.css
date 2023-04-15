@@ -1,0 +1,32 @@
+.recommended h2 {
+    padding: 0 20px;
+    font-size: 20px;
+}
+.community__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.community__header h2 > i {
+    margin-left: 10px;
+}
+.community__content {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.community__title{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.community__p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.community__img img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 20px;
+}

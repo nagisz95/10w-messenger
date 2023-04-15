@@ -1,3 +1,6 @@
+/* font */
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+
 @import "variables.css";
 @import "reset.css";
 
@@ -6,7 +9,16 @@
 @import "components/header-menu.css";
 @import "components/person-icon.css";
 @import "components/footer-menu.css";
+@import "components/menuWithIcon.css";
 
 /* screen */
 @import "screen/login.css";
 @import "screen/chats.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: "Black Han Sans";
+}
