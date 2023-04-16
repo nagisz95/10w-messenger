@@ -22,7 +22,7 @@
 @import "screen/chat.css";
 
 body{
-    background: url(/img/background.jpeg);
+    background: url(../img/background.jpeg);
     height: 100vh;
     font-family: "Black Han Sans";
 }
