@@ -10,6 +10,9 @@
 .person-icon__not-border{
     border-bottom: none;
 }
+.person-icon__not-border a{
+    text-decoration: none;
+}
 .person-icon:nth-child(3) {
     border-bottom: none;
 }
@@ -79,6 +82,7 @@
 .person-icon__middle__text h3 {
     margin-left: 10px;
     font-size: 20px;
+    color: #000;
 }
 .person-icon__middle__text h4 {
     margin-left: 10px;

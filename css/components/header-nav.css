@@ -19,6 +19,15 @@ header{
     justify-content: flex-end;
     align-items: center;
 }
+.settings__column .fa-magnifying-glass{
+    margin-right: 15px;
+}
 .navigation__column:last-child i{
     margin-left: 3px;
+}
+.settings__column{
+    color: #fff;
+}
+.settings__column a{
+    color: #fff;
 }

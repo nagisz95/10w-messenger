@@ -10,12 +10,16 @@
 @import "components/person-icon.css";
 @import "components/footer-menu.css";
 @import "components/menuWithIcon.css";
+@import "components/noMobile.css";
+
 
 /* screen */
 @import "screen/login.css";
 @import "screen/chats.css";
 @import "screen/friends.css";
 @import "screen/find.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
 
 body{
     background: url(/img/background.jpeg);

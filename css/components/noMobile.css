@@ -1,0 +1,27 @@
+.no-mobile{
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background: url(/img/size2big.png);
+    object-fit: contain;
+}
+.no-mobile span{
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    text-align: center;
+}
+
+@media screen and (max-width:645px) {
+    .no-mobile{
+        display: none;
+    }
+}

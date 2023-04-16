@@ -1,0 +1,31 @@
+.settingsHeader{
+    margin-bottom: 10px;
+}
+.settings__columnTitle{
+    font-size: 20px;
+}
+.settings{
+    padding: 0px 20px 20px;
+}
+.settings__ul{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.settings__li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.settings__content{
+    margin-bottom: 20px;
+}
+.settings__content i{
+    margin-right: 10px;
+    font-size: 22px;
+}
+.settings__content h4{
+    opacity: 0.3;
+    font-size: 14px;
+}
+.settings__ul--noBorder{
+    border-bottom: none;
+}

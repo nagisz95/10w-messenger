@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/linkicon.png">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>미첼과의 채팅방</title>
+  </head>
+  <body>
+    <header>
+        <div class="navigation__column">
+          <span>No Service</span>
+          <i class="fa-solid fa-wifi fa-xs"></i>
+        </div>
+        <div class="navigation__column">
+          <span>00:00</span>
+        </div>
+        <div class="navigation__column">
+          <span>100%</span>
+          <i class="fa-solid fa-battery-full fa-lg"></i>
+          <i class="fa-solid fa-bolt fa-xs"></i>
+        </div>
+      </header>
+    <section class="header-menu settingsHeader">
+        <div class="navigation__column settings__column">
+          <a href="chats.html"><i class="fa-solid fa-arrow-left"></i></a>
+        </div>
+        <div class="navigation__column settings__column">
+          <span class="settings__columnTitle">미첼</span>
+        </div>
+        <div class="navigation__column settings__column">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </section>
+      <section class="chatScreen main-chat">
+        <div class="chats__timestamp">
+            Sunday, April 16, 2023
+        </div>
+        <div class="message-row">
+            <img src="img/michelle.jpeg">
+            <div class="message-row__content">
+                <span class="message__author">미첼</span>
+                <div class="message__info">
+                    <span class="message__bubble">어라〜 아직도 과제 안 끝난 거야아?!</span>
+                    <span class="message__time">15:00</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">뭐야</span>
+                    <span class="message__time">15:29</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">날 화나게 하지 마</span>
+                    <span class="message__time">15:30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-solid fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="메시지를 입력해 주세요">
+            <i class="fa-regular fa-face-smile-wink"></i>
+            <button class="reply__column__button">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div class="no-mobile">
+        <img src="img/size2big.png" alt="">
+        <span>화면이 너무 커요. <br> 화면 사이즈를 조정해 주세요.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/019c2e3d78.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
