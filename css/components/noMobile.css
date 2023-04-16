@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    background: url(/img/size2big.png);
+    background: url(../../img/size2big.png);
     object-fit: contain;
 }
 .no-mobile span{
