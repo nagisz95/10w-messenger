@@ -1,8 +1,16 @@
 .menuWithIcon{
     padding: 20px;
 }
+.menuWithIcon--noPadding{
+    padding: 0;
+}
+.menuWithIcon--noPadding h3{
+    margin-left: 20px;
+
+}
 .find__menuColumn{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.3);
@@ -16,12 +24,27 @@
     margin-right: 10px;
     color: rgba(0, 0, 0, 0.3);
 }
+.more__menuColumn{
+    margin-top: 20px;
+    border-bottom: none;
+    justify-content: space-evenly;
+}
+.more__menuColumnList{
+    margin: 0px 20px 20px 20px;
+}
 .find__menuColumnList i{
     color: #000;
+    margin-bottom: 20px;
+}
+.more__menuColumnList img{
+    width: 30px;
+    height: 30px;
 }
 .find__menuColumnList span{
     display: block;
-    margin-top: 20px;
     text-align: center;
     font-size: 12px;
+}
+.more__menuColumnList span{
+    margin-top: 10px;
 }

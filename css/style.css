@@ -18,7 +18,7 @@
 @import "screen/find.css";
 
 body{
-    background-color: var(--background-color);
+    background: url(/img/background.jpeg);
     height: 100vh;
     font-family: "Black Han Sans";
 }

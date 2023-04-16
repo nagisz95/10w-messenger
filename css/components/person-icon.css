@@ -23,7 +23,14 @@
     margin-left: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    margin-bottom: 10px;
+}
+.personIcon__textBlack{
+    color: black;
+}
+.personIcon__textBig span{
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.3);
 }
 .person-icon__big img {
     width: 80px;
@@ -40,7 +47,7 @@
 .personIcon__chatName {
     margin-left: 13px;
     font-size: 15px;
-    color: #fdf9f9;
+    color: rgba(0, 0, 0, 0.3);
 }
 .person-icon__small img {
     width: 50px;

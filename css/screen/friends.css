@@ -2,7 +2,7 @@ body{
     position: relative;
 }
 .splashScreen{
-    background: url(/img/size2big3.jpeg);
+    background: url(/img/splash.jpeg);
     position: absolute;
     top: 0;
     width: 100vw;
