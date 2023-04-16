@@ -34,6 +34,7 @@
 .personIcon__textBig span{
     margin-left: 10px;
     color: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
 }
 .person-icon__big img {
     width: 80px;
