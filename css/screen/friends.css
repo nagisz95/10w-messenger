@@ -2,7 +2,7 @@ body{
     position: relative;
 }
 .splashScreen{
-    background: url(/img/splash.jpeg);
+    background-color: rgb(121,214,167);
     position: absolute;
     top: 0;
     width: 100vw;
